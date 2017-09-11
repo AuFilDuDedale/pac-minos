@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Pacminos
+    </title>
+  </head>
+  <body>
+    <canvas id="pacman_canvas" width="570" height=570></canvas>
+    <script src="utils.js"></script>
+    <script src="pills.js"></script>
+    <script src="walls.js"></script>
+    <script src="ghost.js"></script>
+    <script src="pacman.js"></script>
+    <div id="perdu" style="display: none; visibility: hidden">
+<h3>Perdu ! </h3>
+<p>
+Pour retenter votre chance, appuyez sur le bouton ci-dessous.
+</p>
+</div>
+
+<div id="gagne" style="display: none; visibility: hidden">
+<h3>Gagné ! </h3>
+</div>
+
+<div id="rejouer" style="display: none; visibility: hidden">
+<a id="rejouer_button" href="#"><span>Rejouer</span></a>
+</div>
+  </body>
+</html>
